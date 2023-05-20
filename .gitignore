@@ -1,0 +1,15 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore the build folder
+build/
+
+# Ignore the package-lock.json file
+package-lock.json
+
+# Ignore the npm-debug.log file
+node_modules/
+
+# Ignore the package.json file
+*.package-lock.json
+*.npm-debug.log
