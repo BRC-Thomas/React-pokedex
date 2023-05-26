@@ -95,16 +95,6 @@
       ]
     },
     {
-      "id": 10,
-      "name": "Sabelette",
-      "hp": 19,
-      "cp": 3,
-      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
-      "types": [
-        "Normal"
-      ]
-    },
-    {
       "id": 11,
       "name": "Mélofée",
       "hp": 25,
