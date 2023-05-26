@@ -113,6 +113,26 @@
       "types": [
         "Feu"
       ]
+    },
+    {
+      "id": 1685118897431,
+      "hp": 100,
+      "cp": 10,
+      "name": "Simularbre",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/185.png",
+      "types": [
+        "Plante"
+      ]
+    },
+    {
+      "id": 1685119064820,
+      "hp": 100,
+      "cp": 10,
+      "name": "Voltorbe",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/100.png",
+      "types": [
+        "Electrik"
+      ]
     }
   ]
 }

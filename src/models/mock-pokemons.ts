@@ -1,5 +1,5 @@
 import Pokemon from './pokemon';
-   
+//    Données de base si on veut réinitialiser fichier db.json
 export const POKEMONS: Pokemon[] = [
  {
   id: 1,
