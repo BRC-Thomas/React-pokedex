@@ -11,11 +11,11 @@ const PokemonEdit: FunctionComponent<RouteComponentProps<Params>> = ({ match }) 
   const [pokemon, setPokemon] = useState<Pokemon|null>(null);
   
   useEffect(() => {
-    POKEMONS.forEach(pokemon => {
-      if (match.params.id === pokemon.id.toString()) {
-        setPokemon(pokemon);
-      }
-    })
+    fetch(`http://localhost:3001/pokemons/${match.params.id}`)
+    .then(res => res.json())
+    .then(pokemon => {
+      if(pokemon.id) setPokemon(pokemon); //Vérification de l'id au cas où l'id demandé n'existe pas
+    });
   }, [match.params.id]);
     
   return (

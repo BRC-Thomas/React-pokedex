@@ -7,7 +7,11 @@ const PokemonList: FunctionComponent = () => {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
   
   useEffect(() => {
-    setPokemons(POKEMONS);
+    fetch('http://localhost:3001/pokemons')
+    .then(res => res.json())
+    .then((pokemons) => {
+      setPokemons(pokemons)
+    });
   }, []);
   
   return (
